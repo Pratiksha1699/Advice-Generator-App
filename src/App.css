@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+  background-color:hsl(218, 23%, 16%);  
+}
+
+.adviceCard {
+	background-color:hsl(217, 19%, 24%);
+	border-radius:15px 15px 15px 15px;
+	width:35%;
+	height:30%;
+	margin-top:20%;
+	margin-left:32.5%;
+	
+}
+
+.adviceNo {
+	color:hsl(150, 100%, 66%);
+	text-transform:uppercase;
+	font-family:Manrope;
+	font-weight:800;
+	font-size:14px;
+	padding-top:7%;
+	letter-spacing:3px;
+}
+
+.advice{
+	color:hsl(217, 5%, 84%);
+	font-family:Manrope,'sans-serif';
+	font-weight:700;
+	font-size:28px;
+	padding:5%;
+}
+
+.App-patterndivider{
+	width:80%;
+}
+
+.dice{
+	background-color:hsl(150, 100%, 66%);
+	border-radius:50%;
+	width:10%;
+	//height:55%;
+	margin-left:45%;
+	position:relative;
+	bottom:-25px;
+	
+}
+
+.dice:hover{
+	box-shadow:0px 0px 20px 3px hsl(150, 100%, 66%);
+	cursor:pointer;
+	
+}
+.App-dice{
+	padding:25%;
+	width:35%;
+	
+}
+
+@media only screen and (max-width:768px){
+	
+	.adviceCard {
+	width:70%;
+	height:30%;
+	margin-top:30%;
+	margin-left:15%;
+	}
+	
+	.adviceNo {
+	font-weight:400;
+	font-size:10px;
+	padding-top:5%;
+	letter-spacing:2px;
+	}
+	
+	.advice{
+	font-weight:700;
+	font-size:20px;
+	padding:5%;
+	}
+	
+	.dice{
+	
+	width:10%;
+	margin-left:45%;
+	position:relative;
+	bottom:-25px;	
+	}
+
+	.App-dice{
+	padding:30%;
+	width:35%;
+	
+	}
+	.attribution { font-size: 11px; text-align: center;position:absolute;bottom:1px;margin-left:170px;}
+}
+
+@media only screen and (max-width:425px){
+	
+	.adviceCard {
+	width:90%;
+	height:30%;
+	margin-top:30%;
+	margin-left:5%;
+	}
+	
+	.adviceNo {
+	font-weight:400;
+	font-size:10px;
+	padding-top:5%;
+	letter-spacing:2px;
+	}
+	
+	.advice{
+	font-weight:700;
+	font-size:20px;
+	padding:5%;
+	}
+	
+	.dice{
+	
+	width:16%;
+	margin-left:42%;
+	position:relative;
+	bottom:-25px;	
+	}
+
+	.App-dice{
+	padding:30%;
+	width:35%;
+	
+	}
+	
+	.attribution { font-size: 11px; text-align: center;position:absolute;bottom:1px;margin-left:5px;}
+}
+
+@media only screen and (max-width:375px){
+	
+	.adviceCard {
+	width:90%;
+	height:30%;
+	margin-top:30%;
+	margin-left:5%;
+	}
+	
+	.adviceNo {
+	font-weight:400;
+	font-size:10px;
+	padding-top:5%;
+	letter-spacing:2px;
+	}
+	
+	.advice{
+	font-weight:700;
+	font-size:20px;
+	padding:5%;
+	}
+	
+	.dice{
+	
+	width:16%;
+	margin-left:42%;
+	position:relative;
+	bottom:-25px;	
+	}
+
+	.App-dice{
+	padding:30%;
+	width:35%;
+	
+	}
+	.attribution { font-size: 11px; text-align: center;position:absolute;bottom:1px;margin-left:2px;}
+}
